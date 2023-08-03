@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;700;800;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding:0;
+  
+}
+.main{
+ 
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.nav{
+  
+    display: flex;
+    flex-direction: column;
+    height:5rem;
+   
+
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+   
+}
+.nav .navlinks{
+    display: flex;
+    gap:3rem;
+}
+.contactbtn{
+    margin-bottom: 3rem;
+}
+.contactbtn button{
+    height: 3rem;
+    width:10rem;
+    border:none ;
+    background-color:black;
+    color:white;
+  
+    margin-right:2rem;
+    border-radius:6px;
+
+}
+.topsection{
+    display: flex;
+    width:100%;
+    height: 100vh;
+}
+.topsectionleft{
+    padding:4rem 4rem 0 0;
+}
+.topsectionleft img{
+    width: 100%;
+    height: 100vh;
+  
+}
+
+
+
+.h5css{
+    margin-top: 6rem;
+}
+.hd {
+ 
+    font-size:1rem;
+    font-weight: lighter;
+}
+.hd p{
+    font-size: 4rem;
+}
+.pcss{
+    border:1px solid;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: rgb(252, 252, 185);
+}
+
+
+.btnsection{
+    display: flex;
+}
