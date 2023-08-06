@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding:0;
-  
+   
 }
 .main{
  
@@ -13,6 +13,8 @@ body{
     font-family: 'Rubik', sans-serif;
     width: 100%;
     height: 100vh;
+    position: relative;
+   
   
 }
 
@@ -66,7 +68,9 @@ body{
     height: 100vh;
   
 }
-
+.topsectionright{
+    margin-left: 14em;
+}
 
 
 .h5css{
@@ -84,10 +88,38 @@ body{
     border:1px solid;
     border-radius: 5px;
     width: fit-content;
-    background-color: rgb(252, 252, 185);
+    background-color: rgb(250, 250, 122);
 }
 
 
 .btnsection{
     display: flex;
+}
+.playbutton{
+    background-color: white;
+    border: none;
+}
+.play{
+    height:2rem;
+   
+   
+}
+.testimonial{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: 10rem;
+
+}
+
+.teamimg{
+    display: flex;
+    align-items: center ;
+}
+.teamimg img{
+    border-radius: 100px;
+    border-left: 5px white solid;
+    width:100px;
+    height: 100px;
+    margin-left: -2em;
 }
